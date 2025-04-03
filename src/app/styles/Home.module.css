@@ -1,0 +1,42 @@
+/* General styles for the main section */
+.main {
+  background-color: #f0f0f0;
+  min-height: 100vh;
+}
+
+/* Hero Section */
+.heroSection {
+  background-color: #333;
+  color: white;
+}
+
+/* About Section */
+.aboutSection {
+  background-color: #ffffff;
+}
+
+/* Services Section */
+.servicesSection {
+  background-color: #f8f9fa;
+}
+
+/* Service Card */
+.serviceCard {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: white;
+  transition: transform 0.3s ease;
+}
+
+.serviceCard:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Section */
+.contactSection {
+  background-color: #333;
+  color: white;
+}
