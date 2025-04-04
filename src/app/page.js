@@ -5,7 +5,6 @@ import faw from "./images/faw.jpg";
 import Navbar from "./components/nav-bar";
 import { useLanguage } from "./context/LanguageContext";
 import Link from "next/link";
-
 export default function Home() {
   const { lang } = useLanguage();
   return (
@@ -15,7 +14,6 @@ export default function Home() {
         style={{ backgroundColor: "#E5E7EB", color: "#1F2937" }}
       >
         <Navbar />
-
         {/* Hero Section with Image */}
         <section
           className="py-5 text-center"
